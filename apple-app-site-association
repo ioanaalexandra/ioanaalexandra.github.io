@@ -7,7 +7,7 @@
           {
             "/": "/",
             "?": { "enrollment": "*" },
-            "comment": "Matches any URL at the root path that has a query paramater 'enrollemnt' with any value."
+            "comment": "Matches any URL at the root path that has a query paramater 'enrollment' with any value."
           }
         ]
       }
