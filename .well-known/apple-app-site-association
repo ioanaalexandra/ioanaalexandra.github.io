@@ -1,11 +1,18 @@
 {
     "applinks": {
-        "apps": [],
         "details": [
             {
-                "appID": "com.gemalto.mobilepassp",
-                "paths": [
-                    "/*"
+                "appIDs": [
+                    "4SNPZZ27XN.com.gemalto.mobilepassp"
+                ],
+                "components": [
+                    {
+                        "/": "/",
+                        "?": {
+                            "enrollment": "*"
+                        },
+                        "comment": "Matches any URL at the root path that has a query paramater 'enrollemnt' with any value."
+                    }
                 ]
             }
         ]
